@@ -21,7 +21,7 @@ CREATE TABLE series (
 );
  
 CREATE TABLE authors (
-  id INTEGER PRIMARY KEY
+  id INTEGER PRIMARY KEY,
   name TEXT
 );
 

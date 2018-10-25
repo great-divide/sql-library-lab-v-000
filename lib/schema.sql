@@ -10,21 +10,21 @@ CREATE TABLE books (
   id INTEGER PRIMARY KEY,
   title TEXT,
   year INTEGER,
-  sub_genre_id INTEGER
+  subgenre_id INTEGER
 );
 
 CREATE TABLE series(
   id INTEGER PRIMARY KEY,
   title TEXT,
   author_id INTEGER,
-  sub_genre_id INTEGER
+  subgenre_id INTEGER
 );
 
 CREATE TABLE authors(
   id INTEGER PRIMARY KEY
 );
 
-CREATE TABLE sub_genres(
+CREATE TABLE subgenres(
   id INTEGER PRIMARY KEY,
   name TEXT
 );

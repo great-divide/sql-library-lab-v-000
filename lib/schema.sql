@@ -29,4 +29,7 @@ CREATE TABLE sub_genres(
   name TEXT
 );
 
-JOIN TABLE
+CREATE TABLE character_books (
+  id INTEGER PRIMARY KEY,
+  
+);
